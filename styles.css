@@ -1,0 +1,118 @@
+body
+{
+  font-family: sans-serif;
+  margin: 0px;
+  background: #2D4059;
+}
+
+a
+{
+  text-decoration: none;
+  color: #2D4059;
+  padding: 5px;
+}
+
+header
+{
+  font-family: Lobster;
+  color: #2D4059;
+  display: flex;
+  min-height: 70px;
+  background: #EA5455;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.injected-text
+{
+  text-align: left;
+}
+
+.text
+{
+  text-align: center;
+}
+
+.box
+{
+  font-weight: bolder;
+  font-size: 20px;
+  height: auto;
+  width: auto;
+  position: relative;
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #FFD460;
+  margin: 10px;
+  padding: 0px 5px 0px 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background: #F07B3F;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.logo
+{
+  display: flex;
+  align-items: center;
+}
+
+.logo img
+{
+  height: 75px;
+}
+
+button
+{
+  border-radius: 5px;
+  color: #FFD460;
+  background-color: #EA5455;
+  padding: 5px 10px 8px 10px;
+}
+
+button:hover
+{
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+nav a:hover
+{
+  font-weight: bold;
+}
+
+
+@keyframes background-color
+{
+  100% {
+    background-color: #4791d0;
+  }
+}
+
+@keyframes fade
+{
+  0%
+  {
+    left: 100%;
+  }
+  100%
+  {
+    left: 0%;
+  }
+}
+
+@media (max-width:600px)
+{
+  header
+  {
+    flex-direction: column;
+  }
+
+  nav
+  {
+    padding: 5px 0px;
+  }
+}

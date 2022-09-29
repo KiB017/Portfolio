@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <title>Portafolio de Kiyoshi Marzo</title>
+  </head>
+  <body>
+    <header>
+      <a href="#"class="logo">
+        <img src="https://i.pinimg.com/originals/95/58/8e/95588eca89071e201ae5b31a41af8c66.png" alt="logo de empresa generica">
+        <h2>
+          Kiyoshi Marzo
+        </h2>
+      </a>
+      <nav>
+        <a href="#" class="nav-link">Inicio</a>
+        <a href="#" class="nav-link">Sobre mi</a>
+        <a href="#" class="nav-link">Contactos</a>
+      </nav>
+    </header>
+    <div class="box">
+      <p class="text">
+        Hi, my name is Kiyoshi Marzo. I am web developer junior. The languages I mastered are <strong>HTML, CSS, JavaScript</strong>
+      </p>
+    </div>
+    <div class="box">
+      <p class="injected-text box1">Languages that I know</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+      </ul>
+      <p class="injected-text">Things that I love</p>
+      <ol>
+        <li>Formula 1</li>
+        <li>Videogames</li>
+        <li>Computers conponents</li>
+      </ol>
+    </div>
+
+    <form class="box form" action="index.html" method="post">
+      <fieldset>
+        <legend>Are you a company? </legend>
+        <br>
+        <label for="positive"><input type="radio" id="positive" name="boolean_company" checked>Yes</label><br>
+        <label for="negative"><input type="radio" id="negative" name="boolean_company">No</label><br>
+        <br>
+        <legend>What type of buisness are you?</legend>
+        <br>
+        <label> <input type="checkbox" name="type-of-buisness" checked>Star-up</label>
+        <label> <input type="checkbox" name="type-of-buisness">Store</label>
+        <label> <input type="checkbox" name="type-of-buisness">Freelance</label>
+        <br>
+        <input type="text" name="message" placeholder="Send your contact">
+        <br>
+        <button type="submit">Submit</button>
+        <legend>Choose a date</legend>
+        <label for="pickdate"><input type="date" id="pickdate" name="date"></label>
+      </fieldset>
+    </form>
+  </body>
+</html>
