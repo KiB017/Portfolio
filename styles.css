@@ -59,9 +59,12 @@ header
   align-items: center;
 }
 
-.logo img
+.bar1, .bar2, .bar3
 {
-  height: 75px;
+  width: 35px;
+  height: 5px;
+  background-color: #252525;
+  margin: 6px 0;
 }
 
 button
