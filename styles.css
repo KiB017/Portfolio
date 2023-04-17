@@ -67,8 +67,8 @@ header
 button
 {
   border-radius: 5px;
-  color: #FF0000;
-  background-color: #414141;
+  color: #252525;
+  background-color: #FF0000;
   padding: 5px 10px 8px 10px;
 }
 
@@ -88,7 +88,8 @@ nav a:hover
 @keyframes background-color
 {
   100% {
-    background-color: #4791d0;
+    color: #AF0404;
+    background-color: #252525;
   }
 }
 
