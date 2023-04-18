@@ -2,7 +2,7 @@ body
 {
   font-family: Lobster;
   margin: 0px;
-  background: #252525;
+  background: #414141;
 }
 
 a
@@ -44,7 +44,7 @@ header
   border-style: dashed;
   border-width: 3px;
   border-radius: 10px;
-  border-color: #414141;
+  border-color: #252525;
   margin: 10px;
   padding: 0px 5px 0px 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
