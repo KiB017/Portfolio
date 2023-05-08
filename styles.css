@@ -1,6 +1,6 @@
 body
 {
-  font-family: Lobster;
+  font-family: sans-serif;
   margin: 0px;
   background: #414141;
 }
@@ -55,6 +55,9 @@ header
 
 .logo
 {
+  height: 60px;
+  width: 60px;
+  align-items: center;
   display: flex;
   align-items: center;
 }
